@@ -1,0 +1,11 @@
+{
+  "name": "pi-antigravity-prompt",
+  "version": "0.1.0",
+  "description": "Swap 'inside pi' → 'inside p1' in pi's system prompt to avoid Antigravity's false 429.",
+  "type": "module",
+  "license": "MIT",
+  "keywords": ["pi-package", "pi-extension", "antigravity", "prompt"],
+  "pi": {
+    "extensions": ["./extensions/antigravity-prompt.ts"]
+  }
+}
